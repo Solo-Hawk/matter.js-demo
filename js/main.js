@@ -8,17 +8,17 @@ class SceneA extends Phaser.Scene {
   create(){
     this.matter.world.setBounds()
 
-    const x = Phaser.Math.Between(0,800)
-    const y = Phaser.Math.Between(0,600)
-    
-    let box = this.matter.add.sprite(x,y,'')
-    box.setBounce(0.99);
-    box.setMass(10);
-    box.setFriction(0.5);
+    for(var i = 0; i < 100; i++){
 
-    let circle = this.matter.add.circle(x,y,10)
-    circle.restitution = 0.9
-    console.log(circle);
+      const x = Phaser.Math.Between(0,800)
+      const y = Phaser.Math.Between(0,600)
+      const r = Phaser.Math.Between(5,30)
+
+
+      let circle = this.matter.add.circle(x,y,r)
+      circle.restitution = 1
+      // console.log(circle);
+    }
 
 
 
