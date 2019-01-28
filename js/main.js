@@ -10,11 +10,23 @@ class SceneA extends Phaser.Scene {
 
     const x = Phaser.Math.Between(0,800)
     const y = Phaser.Math.Between(0,600)
+    
     let box = this.matter.add.sprite(x,y,'')
     box.setBounce(0.99);
     box.setMass(10);
     box.setFriction(0.5);
+
+    let circle = this.matter.add.circle(x,y,10)
+    circle.restitution = 0.9
+    console.log(circle);
+
+
+
+
+
     this.matter.add.mouseSpring();
+
+
   }
 }
 var config = {
