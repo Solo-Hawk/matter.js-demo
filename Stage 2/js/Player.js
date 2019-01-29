@@ -7,8 +7,8 @@ class Player {
         .setScale(2)
         .setFixedRotation()
         .setPosition(x, y)
-        .setBounce(0.01)
-        .setFriction(0.001,);
+        .setBounce(0.4)
+        .setFriction(0.3);
 
         // Create the animations we need from the player spritesheet
         this.isTouching = false;

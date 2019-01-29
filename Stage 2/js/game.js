@@ -1,8 +1,8 @@
 
 var config = {
   type: Phaser.AUTO,
-  width: 64*8,
-  height: 64*12,
+  width: 64*10,
+  height: 64*16,
   pixelArt: false,
   physics: {
     default: 'matter',
@@ -10,7 +10,7 @@ var config = {
       debug: true,
       gravity:{
         x:0,
-        y:1.5
+        y:4
       }
     }
   },
