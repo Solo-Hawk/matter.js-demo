@@ -1,12 +1,12 @@
-class SceneA extends Phaser.Scene {
+class SceneB extends Phaser.Scene {
   constructor(){
-    super("sceneA");
+    super("sceneB");
   }
   preload(){
     console.log("tileset");
     this.load.image('tileset', 'assets/tiles/kenney-tileset-64px-extruded.png')
     console.log("JSON Level");
-    this.load.tilemapTiledJSON('level1', 'assets/tiles/level1.json')
+    this.load.tilemapTiledJSON('level2', 'assets/tiles/level2.json')
     this.load.spritesheet(
       'player',
       'assets/sprites/0x72-industrial-player-32px-extruded.png',{
@@ -20,7 +20,7 @@ class SceneA extends Phaser.Scene {
   create(){
     console.log(this)
 
-    this.map = this.make.tilemap({key: 'level1'})
+    this.map = this.make.tilemap({key: 'level2'})
     var tileset = this.map.addTilesetImage('kenney-tileset-64px-extruded', 'tileset');
     this.map.createStaticLayer('background', tileset, 0,0)
     this.platforms = this.map.createStaticLayer('platforms', tileset, 0,0)
@@ -43,20 +43,11 @@ class SceneA extends Phaser.Scene {
       a: Phaser.Input.Keyboard.KeyCodes.A,
       d: Phaser.Input.Keyboard.KeyCodes.D
     })
-    console.log(this.player);
 
   }
   update(){
     if(Phaser.Input.Keyboard.JustDown(this.keys.space)){
-      this.scene.switch('sceneB')
-      this.player.sprite.applyForce(new Phaser.Math.Vector2(0,-0.1))
-    }
-    if (this.keys.left.isDown || this.keys.a.isDown) {
-
-    } else if (this.keys.right.isDown || this.keys.d.isDown) {
-
-    } else{
-
+      this.scene.switch('sceneA')
     }
   }
 }

@@ -14,7 +14,7 @@ var config = {
       }
     }
   },
-  scene: [SceneA],
+  scene: [SceneA, SceneB],
   plugins: {
     scene: [{
         plugin: PhaserMatterCollisionPlugin, // The plugin class
