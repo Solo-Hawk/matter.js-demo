@@ -59,22 +59,10 @@ class SceneBASE extends Phaser.Scene{
         this.scene.restart()
         this.scene.switch(this.nextLevel)
       }
-
-  })
-}
+    })
+  }
   update(){
-    if(Phaser.Input.Keyboard.JustDown(this.keys.space)){
-      this.player.sprite.setVelocityY(-30)
-    }
-    if (this.keys.left.isDown || this.keys.a.isDown) {
-
-        this.player.sprite.setVelocityX(-13)
-    } else if (this.keys.right.isDown || this.keys.d.isDown) {
-
-        this.player.sprite.setVelocityX(13)
-    } else{
-
-    }
+    this.player.update()
 
   }
 }
