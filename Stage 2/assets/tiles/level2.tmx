@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="12" height="32" tilewidth="64" tileheight="64" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="kenney-tileset-64px-extruded" tilewidth="64" tileheight="64" spacing="2" margin="1" tilecount="374" columns="22">
+  <image source="kenney-tileset-64px-extruded.png" width="1452" height="1122"/>
+  <tile id="199">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="200">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="201">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="202">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="203">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="204">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="205">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="206">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="221">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="64">
+     <polygon points="0,0 64,0 64,-64"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="222">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 64,64 0,64"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="223">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="224">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="225">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 32,0 32,48 0,48"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="226">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index">
+    <object id="1" x="64" y="0">
+     <polygon points="0,0 -32,0 -32,48 0,48"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="227">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="228">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="243">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 48,0 0,48"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="244">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index">
+    <object id="1" x="64" y="0">
+     <polygon points="0,0 -48,0 0,48"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="245">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="246">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="247">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="248">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="249">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="250">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="12" height="32">
+  <data encoding="csv">
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,243,199,199,221,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,221,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,221,199,243,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,243,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,221,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,221,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,243,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,243,199,199,221,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,243,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,221,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,221,199,199,
+199,199,199,243,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,243,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199,
+199,199,199,199,199,199,199,199,199,199,199,199
+</data>
+ </layer>
+ <layer name="platforms" width="12" height="32">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,227,201,201,201,201,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,222,201,223,0,0,0,0,0,0,0,0,
+227,244,0,245,226,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,222,201,223,
+0,0,0,0,0,0,0,0,222,244,0,245,
+0,0,0,0,0,0,0,227,244,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,222,201,223,0,0,0,0,0,0,0,
+0,227,244,0,245,223,0,0,0,0,0,0,
+0,0,0,0,0,245,226,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,222,201,223,0,0,0,0,
+0,0,0,0,222,244,0,245,226,0,0,0,
+0,0,0,227,244,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+201,201,201,201,201,201,201,201,201,201,201,201
+</data>
+ </layer>
+ <layer name="door" width="12" height="32">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,339,
+0,0,0,0,0,0,0,0,0,0,0,361,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
