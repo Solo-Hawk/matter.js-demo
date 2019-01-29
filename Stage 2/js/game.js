@@ -1,17 +1,3 @@
-class SceneA extends Phaser.Scene {
-  constructor(){
-    super();
-  }
-  preload(){
-
-  }
-  create(){
-
-  }
-  update(){
-
-  }
-}
 
 var config = {
   type: Phaser.AUTO,
