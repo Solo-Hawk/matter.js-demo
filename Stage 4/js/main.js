@@ -51,6 +51,27 @@ class SceneA extends Phaser.Scene {
     this.matter.world.add(compoundBody)
 
     this.gameBodies.push(compoundBody)
+
+    // var stack = this.matter.add.stack(250,50,6,3,0,0, (x,y) => {
+    //   return Phaser.Physics.Matter.Matter.Bodies.rectangle();
+    // })
+
+    var chain = this.matter.add.stack(450, 100, 4, 1, 0,0, ()=>{
+      return Phaser.Physics.Matter.Matter.Bodies.rectangle(x-20 ,y, 53, 20, {
+        collisionFilter: {group: group},
+        chamfer: 5,
+        density: 0.005,
+        frictionAir:0.05
+      })
+    })
+
+    this.matter.add.chain(chain, 0.3, 0, -0.3, 0, {
+      stiffness:1,
+      length:0,
+      render:{
+        visible: true
+      }
+    })
   }
 
   update(){
